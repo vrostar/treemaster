@@ -1,0 +1,315 @@
+{
+  "root": {
+    "attribute": "odor",
+    "predicateName": "==",
+    "pivot": "n",
+    "match": {
+      "attribute": "capColor",
+      "predicateName": "==",
+      "pivot": "y",
+      "match": {
+        "category": "p"
+      },
+      "notMatch": {
+        "attribute": "cap-shape",
+        "predicateName": "==",
+        "pivot": "b",
+        "match": {
+          "attribute": "cap-surface",
+          "predicateName": "==",
+          "pivot": "y",
+          "match": {
+            "attribute": "capColor",
+            "predicateName": "==",
+            "pivot": "n",
+            "match": {
+              "category": "p"
+            },
+            "notMatch": {
+              "category": "p"
+            },
+            "matchedCount": 4,
+            "notMatchedCount": 19
+          },
+          "notMatch": {
+            "attribute": "capColor",
+            "predicateName": "==",
+            "pivot": "p",
+            "match": {
+              "category": "p"
+            },
+            "notMatch": {
+              "attribute": "capColor",
+              "predicateName": "==",
+              "pivot": "b",
+              "match": {
+                "category": "p"
+              },
+              "notMatch": {
+                "attribute": "capColor",
+                "predicateName": "==",
+                "pivot": "w",
+                "match": {
+                  "attribute": "cap-surface",
+                  "predicateName": "==",
+                  "pivot": "f",
+                  "match": {
+                    "category": "e"
+                  },
+                  "notMatch": {
+                    "attribute": "cap-surface",
+                    "predicateName": "==",
+                    "pivot": "s",
+                    "match": {
+                      "category": "e"
+                    },
+                    "notMatch": {
+                      "category": "p"
+                    },
+                    "matchedCount": 30,
+                    "notMatchedCount": 1
+                  },
+                  "matchedCount": 24,
+                  "notMatchedCount": 31
+                },
+                "notMatch": {
+                  "attribute": "cap-surface",
+                  "predicateName": "==",
+                  "pivot": "f",
+                  "match": {
+                    "attribute": "capColor",
+                    "predicateName": "==",
+                    "pivot": "g",
+                    "match": {
+                      "category": "e"
+                    },
+                    "notMatch": {
+                      "category": "p"
+                    },
+                    "matchedCount": 24,
+                    "notMatchedCount": 2
+                  },
+                  "notMatch": {
+                    "category": "e"
+                  },
+                  "matchedCount": 26,
+                  "notMatchedCount": 74
+                },
+                "matchedCount": 55,
+                "notMatchedCount": 100
+              },
+              "matchedCount": 6,
+              "notMatchedCount": 155
+            },
+            "matchedCount": 6,
+            "notMatchedCount": 161
+          },
+          "matchedCount": 23,
+          "notMatchedCount": 167
+        },
+        "notMatch": {
+          "attribute": "capColor",
+          "predicateName": "==",
+          "pivot": "b",
+          "match": {
+            "attribute": "cap-shape",
+            "predicateName": "==",
+            "pivot": "f",
+            "match": {
+              "category": "e"
+            },
+            "notMatch": {
+              "category": "e"
+            },
+            "matchedCount": 28,
+            "notMatchedCount": 32
+          },
+          "notMatch": {
+            "attribute": "capColor",
+            "predicateName": "==",
+            "pivot": "p",
+            "match": {
+              "attribute": "cap-shape",
+              "predicateName": "==",
+              "pivot": "f",
+              "match": {
+                "category": "e"
+              },
+              "notMatch": {
+                "category": "e"
+              },
+              "matchedCount": 32,
+              "notMatchedCount": 36
+            },
+            "notMatch": {
+              "attribute": "capColor",
+              "predicateName": "==",
+              "pivot": "w",
+              "match": {
+                "attribute": "cap-surface",
+                "predicateName": "==",
+                "pivot": "y",
+                "match": {
+                  "attribute": "cap-shape",
+                  "predicateName": "==",
+                  "pivot": "x",
+                  "match": {
+                    "category": "e"
+                  },
+                  "notMatch": {
+                    "attribute": "cap-shape",
+                    "predicateName": "==",
+                    "pivot": "f",
+                    "match": {
+                      "category": "e"
+                    },
+                    "notMatch": {
+                      "category": "p"
+                    },
+                    "matchedCount": 15,
+                    "notMatchedCount": 2
+                  },
+                  "matchedCount": 8,
+                  "notMatchedCount": 17
+                },
+                "notMatch": {
+                  "attribute": "cap-surface",
+                  "predicateName": "==",
+                  "pivot": "g",
+                  "match": {
+                    "category": "p"
+                  },
+                  "notMatch": {
+                    "attribute": "cap-shape",
+                    "predicateName": "==",
+                    "pivot": "f",
+                    "match": {
+                      "attribute": "cap-surface",
+                      "predicateName": "==",
+                      "pivot": "s",
+                      "match": {
+                        "category": "e"
+                      },
+                      "notMatch": {
+                        "category": "e"
+                      },
+                      "matchedCount": 70,
+                      "notMatchedCount": 64
+                    },
+                    "notMatch": {
+                      "category": "e"
+                    },
+                    "matchedCount": 134,
+                    "notMatchedCount": 224
+                  },
+                  "matchedCount": 3,
+                  "notMatchedCount": 358
+                },
+                "matchedCount": 25,
+                "notMatchedCount": 361
+              },
+              "notMatch": {
+                "attribute": "capColor",
+                "predicateName": "==",
+                "pivot": "n",
+                "match": {
+                  "attribute": "cap-surface",
+                  "predicateName": "==",
+                  "pivot": "s",
+                  "match": {
+                    "category": "e"
+                  },
+                  "notMatch": {
+                    "attribute": "cap-shape",
+                    "predicateName": "==",
+                    "pivot": "k",
+                    "match": {
+                      "attribute": "cap-surface",
+                      "predicateName": "==",
+                      "pivot": "y",
+                      "match": {
+                        "category": "e"
+                      },
+                      "notMatch": {
+                        "category": "e"
+                      },
+                      "matchedCount": 16,
+                      "notMatchedCount": 6
+                    },
+                    "notMatch": {
+                      "attribute": "cap-shape",
+                      "predicateName": "==",
+                      "pivot": "s",
+                      "match": {
+                        "category": "e"
+                      },
+                      "notMatch": {
+                        "attribute": "cap-surface",
+                        "predicateName": "==",
+                        "pivot": "y",
+                        "match": {
+                          "category": "e"
+                        },
+                        "notMatch": {
+                          "category": "e"
+                        },
+                        "matchedCount": 324,
+                        "notMatchedCount": 460
+                      },
+                      "matchedCount": 16,
+                      "notMatchedCount": 784
+                    },
+                    "matchedCount": 22,
+                    "notMatchedCount": 800
+                  },
+                  "matchedCount": 306,
+                  "notMatchedCount": 822
+                },
+                "notMatch": {
+                  "category": "e"
+                },
+                "matchedCount": 1128,
+                "notMatchedCount": 1672
+              },
+              "matchedCount": 386,
+              "notMatchedCount": 2800
+            },
+            "matchedCount": 68,
+            "notMatchedCount": 3186
+          },
+          "matchedCount": 60,
+          "notMatchedCount": 3254
+        },
+        "matchedCount": 190,
+        "notMatchedCount": 3314
+      },
+      "matchedCount": 24,
+      "notMatchedCount": 3504
+    },
+    "notMatch": {
+      "attribute": "odor",
+      "predicateName": "==",
+      "pivot": "a",
+      "match": {
+        "category": "e"
+      },
+      "notMatch": {
+        "attribute": "odor",
+        "predicateName": "==",
+        "pivot": "l",
+        "match": {
+          "category": "e"
+        },
+        "notMatch": {
+          "category": "p"
+        },
+        "matchedCount": 400,
+        "notMatchedCount": 3796
+      },
+      "matchedCount": 400,
+      "notMatchedCount": 4196
+    },
+    "matchedCount": 3528,
+    "notMatchedCount": 4596
+  }
+}
