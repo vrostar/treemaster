@@ -1,315 +1,705 @@
 {
   "root": {
-    "attribute": "odor",
-    "predicateName": "==",
-    "pivot": "n",
+    "attribute": "cp",
+    "predicateName": ">=",
+    "pivot": 1,
     "match": {
-      "attribute": "capColor",
-      "predicateName": "==",
-      "pivot": "y",
+      "attribute": "age",
+      "predicateName": ">=",
+      "pivot": 57,
       "match": {
-        "category": "p"
-      },
-      "notMatch": {
-        "attribute": "cap-shape",
-        "predicateName": "==",
-        "pivot": "b",
+        "attribute": "age",
+        "predicateName": ">=",
+        "pivot": 71,
         "match": {
-          "attribute": "cap-surface",
-          "predicateName": "==",
-          "pivot": "y",
-          "match": {
-            "attribute": "capColor",
-            "predicateName": "==",
-            "pivot": "n",
-            "match": {
-              "category": "p"
-            },
-            "notMatch": {
-              "category": "p"
-            },
-            "matchedCount": 4,
-            "notMatchedCount": 19
-          },
-          "notMatch": {
-            "attribute": "capColor",
-            "predicateName": "==",
-            "pivot": "p",
-            "match": {
-              "category": "p"
-            },
-            "notMatch": {
-              "attribute": "capColor",
-              "predicateName": "==",
-              "pivot": "b",
-              "match": {
-                "category": "p"
-              },
-              "notMatch": {
-                "attribute": "capColor",
-                "predicateName": "==",
-                "pivot": "w",
-                "match": {
-                  "attribute": "cap-surface",
-                  "predicateName": "==",
-                  "pivot": "f",
-                  "match": {
-                    "category": "e"
-                  },
-                  "notMatch": {
-                    "attribute": "cap-surface",
-                    "predicateName": "==",
-                    "pivot": "s",
-                    "match": {
-                      "category": "e"
-                    },
-                    "notMatch": {
-                      "category": "p"
-                    },
-                    "matchedCount": 30,
-                    "notMatchedCount": 1
-                  },
-                  "matchedCount": 24,
-                  "notMatchedCount": 31
-                },
-                "notMatch": {
-                  "attribute": "cap-surface",
-                  "predicateName": "==",
-                  "pivot": "f",
-                  "match": {
-                    "attribute": "capColor",
-                    "predicateName": "==",
-                    "pivot": "g",
-                    "match": {
-                      "category": "e"
-                    },
-                    "notMatch": {
-                      "category": "p"
-                    },
-                    "matchedCount": 24,
-                    "notMatchedCount": 2
-                  },
-                  "notMatch": {
-                    "category": "e"
-                  },
-                  "matchedCount": 26,
-                  "notMatchedCount": 74
-                },
-                "matchedCount": 55,
-                "notMatchedCount": 100
-              },
-              "matchedCount": 6,
-              "notMatchedCount": 155
-            },
-            "matchedCount": 6,
-            "notMatchedCount": 161
-          },
-          "matchedCount": 23,
-          "notMatchedCount": 167
+          "category": "1"
         },
         "notMatch": {
-          "attribute": "capColor",
-          "predicateName": "==",
-          "pivot": "b",
+          "attribute": "age",
+          "predicateName": ">=",
+          "pivot": 60,
           "match": {
-            "attribute": "cap-shape",
-            "predicateName": "==",
-            "pivot": "f",
+            "attribute": "thalach",
+            "predicateName": ">=",
+            "pivot": 114,
             "match": {
-              "category": "e"
-            },
-            "notMatch": {
-              "category": "e"
-            },
-            "matchedCount": 28,
-            "notMatchedCount": 32
-          },
-          "notMatch": {
-            "attribute": "capColor",
-            "predicateName": "==",
-            "pivot": "p",
-            "match": {
-              "attribute": "cap-shape",
-              "predicateName": "==",
-              "pivot": "f",
+              "attribute": "thalach",
+              "predicateName": ">=",
+              "pivot": 120,
               "match": {
-                "category": "e"
-              },
-              "notMatch": {
-                "category": "e"
-              },
-              "matchedCount": 32,
-              "notMatchedCount": 36
-            },
-            "notMatch": {
-              "attribute": "capColor",
-              "predicateName": "==",
-              "pivot": "w",
-              "match": {
-                "attribute": "cap-surface",
-                "predicateName": "==",
-                "pivot": "y",
+                "attribute": "thalach",
+                "predicateName": ">=",
+                "pivot": 131,
                 "match": {
-                  "attribute": "cap-shape",
-                  "predicateName": "==",
-                  "pivot": "x",
+                  "attribute": "cp",
+                  "predicateName": ">=",
+                  "pivot": 2,
                   "match": {
-                    "category": "e"
-                  },
-                  "notMatch": {
-                    "attribute": "cap-shape",
-                    "predicateName": "==",
-                    "pivot": "f",
+                    "attribute": "thalach",
+                    "predicateName": ">=",
+                    "pivot": 174,
                     "match": {
-                      "category": "e"
+                      "category": "0"
                     },
                     "notMatch": {
-                      "category": "p"
-                    },
-                    "matchedCount": 15,
-                    "notMatchedCount": 2
-                  },
-                  "matchedCount": 8,
-                  "notMatchedCount": 17
-                },
-                "notMatch": {
-                  "attribute": "cap-surface",
-                  "predicateName": "==",
-                  "pivot": "g",
-                  "match": {
-                    "category": "p"
-                  },
-                  "notMatch": {
-                    "attribute": "cap-shape",
-                    "predicateName": "==",
-                    "pivot": "f",
-                    "match": {
-                      "attribute": "cap-surface",
-                      "predicateName": "==",
-                      "pivot": "s",
+                      "attribute": "thalach",
+                      "predicateName": ">=",
+                      "pivot": 160,
                       "match": {
-                        "category": "e"
+                        "category": "1"
                       },
                       "notMatch": {
-                        "category": "e"
-                      },
-                      "matchedCount": 70,
-                      "notMatchedCount": 64
-                    },
-                    "notMatch": {
-                      "category": "e"
-                    },
-                    "matchedCount": 134,
-                    "notMatchedCount": 224
-                  },
-                  "matchedCount": 3,
-                  "notMatchedCount": 358
-                },
-                "matchedCount": 25,
-                "notMatchedCount": 361
-              },
-              "notMatch": {
-                "attribute": "capColor",
-                "predicateName": "==",
-                "pivot": "n",
-                "match": {
-                  "attribute": "cap-surface",
-                  "predicateName": "==",
-                  "pivot": "s",
-                  "match": {
-                    "category": "e"
-                  },
-                  "notMatch": {
-                    "attribute": "cap-shape",
-                    "predicateName": "==",
-                    "pivot": "k",
-                    "match": {
-                      "attribute": "cap-surface",
-                      "predicateName": "==",
-                      "pivot": "y",
-                      "match": {
-                        "category": "e"
-                      },
-                      "notMatch": {
-                        "category": "e"
-                      },
-                      "matchedCount": 16,
-                      "notMatchedCount": 6
-                    },
-                    "notMatch": {
-                      "attribute": "cap-shape",
-                      "predicateName": "==",
-                      "pivot": "s",
-                      "match": {
-                        "category": "e"
-                      },
-                      "notMatch": {
-                        "attribute": "cap-surface",
-                        "predicateName": "==",
-                        "pivot": "y",
+                        "attribute": "age",
+                        "predicateName": ">=",
+                        "pivot": 61,
                         "match": {
-                          "category": "e"
+                          "attribute": "thalach",
+                          "predicateName": ">=",
+                          "pivot": 158,
+                          "match": {
+                            "category": "0"
+                          },
+                          "notMatch": {
+                            "attribute": "thalach",
+                            "predicateName": ">=",
+                            "pivot": 151,
+                            "match": {
+                              "category": "1"
+                            },
+                            "notMatch": {
+                              "attribute": "age",
+                              "predicateName": ">=",
+                              "pivot": 67,
+                              "match": {
+                                "attribute": "thalach",
+                                "predicateName": ">=",
+                                "pivot": 146,
+                                "match": {
+                                  "category": "0"
+                                },
+                                "notMatch": {
+                                  "category": "1"
+                                },
+                                "matchedCount": 3,
+                                "notMatchedCount": 1
+                              },
+                              "notMatch": {
+                                "attribute": "thalach",
+                                "predicateName": ">=",
+                                "pivot": 133,
+                                "match": {
+                                  "attribute": "age",
+                                  "predicateName": ">=",
+                                  "pivot": 62,
+                                  "match": {
+                                    "category": "1"
+                                  },
+                                  "notMatch": {
+                                    "attribute": "cp",
+                                    "predicateName": ">=",
+                                    "pivot": 3,
+                                    "match": {
+                                      "category": "0"
+                                    },
+                                    "notMatch": {
+                                      "category": "1"
+                                    },
+                                    "matchedCount": 1,
+                                    "notMatchedCount": 1
+                                  },
+                                  "matchedCount": 5,
+                                  "notMatchedCount": 2
+                                },
+                                "notMatch": {
+                                  "category": "0"
+                                },
+                                "matchedCount": 7,
+                                "notMatchedCount": 1
+                              },
+                              "matchedCount": 4,
+                              "notMatchedCount": 8
+                            },
+                            "matchedCount": 6,
+                            "notMatchedCount": 12
+                          },
+                          "matchedCount": 1,
+                          "notMatchedCount": 18
                         },
                         "notMatch": {
-                          "category": "e"
+                          "category": "0"
                         },
-                        "matchedCount": 324,
-                        "notMatchedCount": 460
+                        "matchedCount": 19,
+                        "notMatchedCount": 1
                       },
-                      "matchedCount": 16,
-                      "notMatchedCount": 784
+                      "matchedCount": 5,
+                      "notMatchedCount": 20
                     },
-                    "matchedCount": 22,
-                    "notMatchedCount": 800
+                    "matchedCount": 1,
+                    "notMatchedCount": 25
                   },
-                  "matchedCount": 306,
-                  "notMatchedCount": 822
+                  "notMatch": {
+                    "category": "1"
+                  },
+                  "matchedCount": 26,
+                  "notMatchedCount": 3
                 },
                 "notMatch": {
-                  "category": "e"
+                  "category": "0"
                 },
-                "matchedCount": 1128,
-                "notMatchedCount": 1672
+                "matchedCount": 29,
+                "notMatchedCount": 1
               },
-              "matchedCount": 386,
-              "notMatchedCount": 2800
+              "notMatch": {
+                "category": "1"
+              },
+              "matchedCount": 30,
+              "notMatchedCount": 2
             },
-            "matchedCount": 68,
-            "notMatchedCount": 3186
+            "notMatch": {
+              "attribute": "age",
+              "predicateName": ">=",
+              "pivot": 62,
+              "match": {
+                "category": "0"
+              },
+              "notMatch": {
+                "category": "1"
+              },
+              "matchedCount": 3,
+              "notMatchedCount": 1
+            },
+            "matchedCount": 32,
+            "notMatchedCount": 4
           },
-          "matchedCount": 60,
-          "notMatchedCount": 3254
+          "notMatch": {
+            "attribute": "thalach",
+            "predicateName": ">=",
+            "pivot": 144,
+            "match": {
+              "attribute": "thalach",
+              "predicateName": ">=",
+              "pivot": 150,
+              "match": {
+                "attribute": "thalach",
+                "predicateName": ">=",
+                "pivot": 154,
+                "match": {
+                  "attribute": "thalach",
+                  "predicateName": ">=",
+                  "pivot": 159,
+                  "match": {
+                    "attribute": "thalach",
+                    "predicateName": ">=",
+                    "pivot": 162,
+                    "match": {
+                      "attribute": "cp",
+                      "predicateName": ">=",
+                      "pivot": 2,
+                      "match": {
+                        "attribute": "age",
+                        "predicateName": ">=",
+                        "pivot": 58,
+                        "match": {
+                          "attribute": "age",
+                          "predicateName": ">=",
+                          "pivot": 59,
+                          "match": {
+                            "category": "0"
+                          },
+                          "notMatch": {
+                            "attribute": "thalach",
+                            "predicateName": ">=",
+                            "pivot": 173,
+                            "match": {
+                              "category": "0"
+                            },
+                            "notMatch": {
+                              "attribute": "thalach",
+                              "predicateName": ">=",
+                              "pivot": 165,
+                              "match": {
+                                "attribute": "thalach",
+                                "predicateName": ">=",
+                                "pivot": 172,
+                                "match": {
+                                  "category": "1"
+                                },
+                                "notMatch": {
+                                  "category": "0"
+                                },
+                                "matchedCount": 1,
+                                "notMatchedCount": 2
+                              },
+                              "notMatch": {
+                                "category": "1"
+                              },
+                              "matchedCount": 3,
+                              "notMatchedCount": 1
+                            },
+                            "matchedCount": 1,
+                            "notMatchedCount": 4
+                          },
+                          "matchedCount": 1,
+                          "notMatchedCount": 5
+                        },
+                        "notMatch": {
+                          "category": "1"
+                        },
+                        "matchedCount": 6,
+                        "notMatchedCount": 2
+                      },
+                      "notMatch": {
+                        "attribute": "age",
+                        "predicateName": ">=",
+                        "pivot": 59,
+                        "match": {
+                          "category": "1"
+                        },
+                        "notMatch": {
+                          "category": "0"
+                        },
+                        "matchedCount": 1,
+                        "notMatchedCount": 2
+                      },
+                      "matchedCount": 8,
+                      "notMatchedCount": 3
+                    },
+                    "notMatch": {
+                      "category": "0"
+                    },
+                    "matchedCount": 11,
+                    "notMatchedCount": 2
+                  },
+                  "notMatch": {
+                    "category": "1"
+                  },
+                  "matchedCount": 13,
+                  "notMatchedCount": 2
+                },
+                "notMatch": {
+                  "category": "0"
+                },
+                "matchedCount": 15,
+                "notMatchedCount": 2
+              },
+              "notMatch": {
+                "category": "1"
+              },
+              "matchedCount": 17,
+              "notMatchedCount": 2
+            },
+            "notMatch": {
+              "category": "0"
+            },
+            "matchedCount": 19,
+            "notMatchedCount": 3
+          },
+          "matchedCount": 36,
+          "notMatchedCount": 22
         },
-        "matchedCount": 190,
-        "notMatchedCount": 3314
-      },
-      "matchedCount": 24,
-      "notMatchedCount": 3504
-    },
-    "notMatch": {
-      "attribute": "odor",
-      "predicateName": "==",
-      "pivot": "a",
-      "match": {
-        "category": "e"
+        "matchedCount": 4,
+        "notMatchedCount": 58
       },
       "notMatch": {
-        "attribute": "odor",
-        "predicateName": "==",
-        "pivot": "l",
+        "attribute": "thalach",
+        "predicateName": ">=",
+        "pivot": 149,
         "match": {
-          "category": "e"
+          "attribute": "thalach",
+          "predicateName": ">=",
+          "pivot": 195,
+          "match": {
+            "attribute": "thalach",
+            "predicateName": ">=",
+            "pivot": 202,
+            "match": {
+              "category": "1"
+            },
+            "notMatch": {
+              "category": "0"
+            },
+            "matchedCount": 1,
+            "notMatchedCount": 1
+          },
+          "notMatch": {
+            "attribute": "age",
+            "predicateName": ">=",
+            "pivot": 51,
+            "match": {
+              "category": "1"
+            },
+            "notMatch": {
+              "attribute": "age",
+              "predicateName": ">=",
+              "pivot": 47,
+              "match": {
+                "attribute": "thalach",
+                "predicateName": ">=",
+                "pivot": 156,
+                "match": {
+                  "attribute": "thalach",
+                  "predicateName": ">=",
+                  "pivot": 163,
+                  "match": {
+                    "attribute": "thalach",
+                    "predicateName": ">=",
+                    "pivot": 171,
+                    "match": {
+                      "category": "1"
+                    },
+                    "notMatch": {
+                      "attribute": "age",
+                      "predicateName": ">=",
+                      "pivot": 50,
+                      "match": {
+                        "category": "0"
+                      },
+                      "notMatch": {
+                        "category": "0"
+                      },
+                      "matchedCount": 2,
+                      "notMatchedCount": 1
+                    },
+                    "matchedCount": 4,
+                    "notMatchedCount": 3
+                  },
+                  "notMatch": {
+                    "category": "1"
+                  },
+                  "matchedCount": 7,
+                  "notMatchedCount": 4
+                },
+                "notMatch": {
+                  "category": "0"
+                },
+                "matchedCount": 11,
+                "notMatchedCount": 1
+              },
+              "notMatch": {
+                "attribute": "cp",
+                "predicateName": ">=",
+                "pivot": 3,
+                "match": {
+                  "attribute": "thalach",
+                  "predicateName": ">=",
+                  "pivot": 182,
+                  "match": {
+                    "category": "0"
+                  },
+                  "notMatch": {
+                    "category": "1"
+                  },
+                  "matchedCount": 1,
+                  "notMatchedCount": 3
+                },
+                "notMatch": {
+                  "category": "1"
+                },
+                "matchedCount": 4,
+                "notMatchedCount": 36
+              },
+              "matchedCount": 12,
+              "notMatchedCount": 40
+            },
+            "matchedCount": 30,
+            "notMatchedCount": 52
+          },
+          "matchedCount": 2,
+          "notMatchedCount": 82
         },
         "notMatch": {
-          "category": "p"
+          "attribute": "thalach",
+          "predicateName": ">=",
+          "pivot": 126,
+          "match": {
+            "attribute": "cp",
+            "predicateName": ">=",
+            "pivot": 2,
+            "match": {
+              "attribute": "age",
+              "predicateName": ">=",
+              "pivot": 51,
+              "match": {
+                "attribute": "age",
+                "predicateName": ">=",
+                "pivot": 56,
+                "match": {
+                  "category": "0"
+                },
+                "notMatch": {
+                  "category": "1"
+                },
+                "matchedCount": 1,
+                "notMatchedCount": 3
+              },
+              "notMatch": {
+                "attribute": "age",
+                "predicateName": ">=",
+                "pivot": 49,
+                "match": {
+                  "category": "0"
+                },
+                "notMatch": {
+                  "attribute": "age",
+                  "predicateName": ">=",
+                  "pivot": 48,
+                  "match": {
+                    "category": "1"
+                  },
+                  "notMatch": {
+                    "category": "0"
+                  },
+                  "matchedCount": 1,
+                  "notMatchedCount": 2
+                },
+                "matchedCount": 2,
+                "notMatchedCount": 3
+              },
+              "matchedCount": 4,
+              "notMatchedCount": 5
+            },
+            "notMatch": {
+              "category": "1"
+            },
+            "matchedCount": 9,
+            "notMatchedCount": 2
+          },
+          "notMatch": {
+            "category": "1"
+          },
+          "matchedCount": 11,
+          "notMatchedCount": 3
         },
-        "matchedCount": 400,
-        "notMatchedCount": 3796
+        "matchedCount": 84,
+        "notMatchedCount": 14
       },
-      "matchedCount": 400,
-      "notMatchedCount": 4196
+      "matchedCount": 62,
+      "notMatchedCount": 98
     },
-    "matchedCount": 3528,
-    "notMatchedCount": 4596
+    "notMatch": {
+      "attribute": "thalach",
+      "predicateName": ">=",
+      "pivot": 147,
+      "match": {
+        "attribute": "thalach",
+        "predicateName": ">=",
+        "pivot": 182,
+        "match": {
+          "category": "1"
+        },
+        "notMatch": {
+          "attribute": "age",
+          "predicateName": ">=",
+          "pivot": 58,
+          "match": {
+            "attribute": "thalach",
+            "predicateName": ">=",
+            "pivot": 165,
+            "match": {
+              "category": "0"
+            },
+            "notMatch": {
+              "attribute": "age",
+              "predicateName": ">=",
+              "pivot": 67,
+              "match": {
+                "category": "0"
+              },
+              "notMatch": {
+                "attribute": "thalach",
+                "predicateName": ">=",
+                "pivot": 163,
+                "match": {
+                  "category": "1"
+                },
+                "notMatch": {
+                  "attribute": "age",
+                  "predicateName": ">=",
+                  "pivot": 66,
+                  "match": {
+                    "category": "1"
+                  },
+                  "notMatch": {
+                    "attribute": "age",
+                    "predicateName": ">=",
+                    "pivot": 64,
+                    "match": {
+                      "attribute": "age",
+                      "predicateName": ">=",
+                      "pivot": 65,
+                      "match": {
+                        "category": "0"
+                      },
+                      "notMatch": {
+                        "category": "1"
+                      },
+                      "matchedCount": 1,
+                      "notMatchedCount": 1
+                    },
+                    "notMatch": {
+                      "attribute": "thalach",
+                      "predicateName": ">=",
+                      "pivot": 157,
+                      "match": {
+                        "attribute": "thalach",
+                        "predicateName": ">=",
+                        "pivot": 162,
+                        "match": {
+                          "category": "0"
+                        },
+                        "notMatch": {
+                          "attribute": "age",
+                          "predicateName": ">=",
+                          "pivot": 60,
+                          "match": {
+                            "attribute": "age",
+                            "predicateName": ">=",
+                            "pivot": 62,
+                            "match": {
+                              "attribute": "thalach",
+                              "predicateName": ">=",
+                              "pivot": 160,
+                              "match": {
+                                "category": "0"
+                              },
+                              "notMatch": {
+                                "category": "1"
+                              },
+                              "matchedCount": 1,
+                              "notMatchedCount": 1
+                            },
+                            "notMatch": {
+                              "category": "0"
+                            },
+                            "matchedCount": 2,
+                            "notMatchedCount": 3
+                          },
+                          "notMatch": {
+                            "category": "1"
+                          },
+                          "matchedCount": 5,
+                          "notMatchedCount": 1
+                        },
+                        "matchedCount": 1,
+                        "notMatchedCount": 6
+                      },
+                      "notMatch": {
+                        "category": "0"
+                      },
+                      "matchedCount": 7,
+                      "notMatchedCount": 4
+                    },
+                    "matchedCount": 2,
+                    "notMatchedCount": 11
+                  },
+                  "matchedCount": 1,
+                  "notMatchedCount": 13
+                },
+                "matchedCount": 1,
+                "notMatchedCount": 14
+              },
+              "matchedCount": 2,
+              "notMatchedCount": 15
+            },
+            "matchedCount": 5,
+            "notMatchedCount": 17
+          },
+          "notMatch": {
+            "attribute": "age",
+            "predicateName": ">=",
+            "pivot": 57,
+            "match": {
+              "category": "1"
+            },
+            "notMatch": {
+              "attribute": "age",
+              "predicateName": ">=",
+              "pivot": 42,
+              "match": {
+                "attribute": "age",
+                "predicateName": ">=",
+                "pivot": 44,
+                "match": {
+                  "attribute": "thalach",
+                  "predicateName": ">=",
+                  "pivot": 166,
+                  "match": {
+                    "category": "0"
+                  },
+                  "notMatch": {
+                    "attribute": "age",
+                    "predicateName": ">=",
+                    "pivot": 45,
+                    "match": {
+                      "attribute": "age",
+                      "predicateName": ">=",
+                      "pivot": 52,
+                      "match": {
+                        "attribute": "thalach",
+                        "predicateName": ">=",
+                        "pivot": 150,
+                        "match": {
+                          "attribute": "thalach",
+                          "predicateName": ">=",
+                          "pivot": 160,
+                          "match": {
+                            "category": "0"
+                          },
+                          "notMatch": {
+                            "category": "0"
+                          },
+                          "matchedCount": 4,
+                          "notMatchedCount": 3
+                        },
+                        "notMatch": {
+                          "category": "1"
+                        },
+                        "matchedCount": 7,
+                        "notMatchedCount": 1
+                      },
+                      "notMatch": {
+                        "category": "1"
+                      },
+                      "matchedCount": 8,
+                      "notMatchedCount": 7
+                    },
+                    "notMatch": {
+                      "category": "0"
+                    },
+                    "matchedCount": 15,
+                    "notMatchedCount": 1
+                  },
+                  "matchedCount": 4,
+                  "notMatchedCount": 16
+                },
+                "notMatch": {
+                  "category": "1"
+                },
+                "matchedCount": 20,
+                "notMatchedCount": 4
+              },
+              "notMatch": {
+                "category": "0"
+              },
+              "matchedCount": 24,
+              "notMatchedCount": 3
+            },
+            "matchedCount": 4,
+            "notMatchedCount": 27
+          },
+          "matchedCount": 22,
+          "notMatchedCount": 31
+        },
+        "matchedCount": 5,
+        "notMatchedCount": 53
+      },
+      "notMatch": {
+        "category": "0"
+      },
+      "matchedCount": 58,
+      "notMatchedCount": 86
+    },
+    "matchedCount": 160,
+    "notMatchedCount": 144
   }
 }

@@ -4,36 +4,37 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    font-family: sans-serif;
-    background-image: url("https://cdn.discordapp.com/attachments/933359156205846568/1089624660527825046/Untitled.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-image: url("https://cdn.discordapp.com/attachments/947669778590470167/1097225613095489616/wewew.png");
     background-size: 100% 100%;
     background-color: lightpink;
-    overflow: hidden;
-    /* centered column with flex */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 button {
-    background-color: #78a12a;
+    font-family: 'Courier New', monospace;
+    background-color: #564eaf;
     border: 1px solid #492f1b;
     color: white;
     padding: 8px 12px;
     margin: 4px;
-    font-size: 1em;
+    font-size: 20px;
     cursor: pointer;
+    border-radius: 24px;
 }
 
 button:hover {
-    background-color: #a9f60e;
+    background-color: #9991e7;
     color: white;
 }
 
-h2, h3, h4 {
-    margin-top: 0;
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 18px;
 }
 
 div {
@@ -42,20 +43,21 @@ div {
     margin: 10px;
 }
 
-#chart {
-    overflow: scroll;
-    padding:20px;
+section {
+    padding: 10px;
+    margin: 20px auto;
+    max-width:1200px;
+    background-color: #f14f4f;
+    border-radius: 12px;
 }
 
-* {
+.form {
+    font-size: 20px;
+    background-color: #756ade;
+    border-radius: 24px;
+}
+
+input[type=text] {
+    width: 50px;
     box-sizing: border-box;
-}
-
-table, tr, td {
-    border: 1px solid grey;
-    border-collapse: collapse;
-}
-
-td {
-    padding: 5px;
 }
